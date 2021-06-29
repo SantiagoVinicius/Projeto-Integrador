@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <title>Bootstrap 4 Website Example</title>
+  <title>Santiago Hair</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -53,7 +53,7 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="home.php">HOME</a>
-  <a class="navbar-brand" href="login.php" style="margin-left:89%;">LOGIN</a>
+  <a class="navbar-brand" href="#" style="margin-left:89%;">LOGIN</a>
 </nav>
 
 <div class="container" style="margin-top:25px">
