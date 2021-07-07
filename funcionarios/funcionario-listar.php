@@ -1,4 +1,11 @@
-<?php include "../includes/cabecalho.php"; ?>
+<?php include "../includes/cabecalho.php"; 
+include "../includes/conexao.php";
+
+$sqlBusca = "SELECT * FROM tb_funcionarios";
+
+$listaDeFuncionarios = mysqli_query($conexao, $sqlBusca);
+?>
+<p>
 <hr>
 <?php if(isset($_GET['mensagem'])){
         if($_GET['mensagem'] == 'cadastrado'){
@@ -16,6 +23,7 @@
         </div>
         <?php
     }
+    
 }
     ?>
 <p>
