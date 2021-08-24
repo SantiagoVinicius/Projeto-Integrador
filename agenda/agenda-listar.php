@@ -13,7 +13,13 @@ $sqlBusca = "SELECT
                 FROM tb_agenda
                   inner join tb_clientes on tb_agenda.id_cliente = tb_clientes.id
                   inner join tb_funcionarios on tb_agenda.id_funcionario = tb_funcionarios.id";  
-                
+                $idFuncionarioSelecionado = "";
+                if(isset($_POST['id_funcionario'])){
+                    $idFuncionarioSelecionado = $_POST['id_funcionario'];
+                    if($idFuncionarioSelecionado != 'todos'){
+                        $sqlBusca .= " WHERE id_funcionario = " . $idFuncionarioSelecionado;
+                    }
+                }
 $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
 ?>
 <hr>
@@ -38,11 +44,40 @@ $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
     ?>
 
 <a href="agenda-formulario-inserir.php" class=" btn btn-success">Nova Consulta</a>
+<form method="post">
+    <div class="row">
+        <div class="col-1">Funcionário:</div>
+            <div class="col-4">
+            <select name="id_funcionario" class="form-select btn btn-success" >
+                <option value="todos">TODOS</option>
+                <?php 
+                $sqlBuscaFuncionarios = "SELECT * FROM tb_funcionarios";
+                $listaDeFuncionarios = mysqli_query($conexao , $sqlBuscaFuncionarios);
+                $selecionado = "";
+                 while($funcionario = mysqli_fetch_assoc($listaDeFuncionarios)){
+                     if($idFuncionarioSelecionado == $funcionario['id']){
+                         $selecionado = "selected";
+                     }else{
+                         $selecionado = "";
+                     }
+                     echo "<option value='{$funcionario['id']}' {$selecionado}>";
+                     echo $funcionario['nome'];
+                     echo "</option>";
+                    }
+                ?>
+            </select>
+            </div>
+        <div class="col-7">
+            <button class="btn btn-success">Filtrar</button>
+        </div>
+    </div>
+</form>
+
 <table class="table table-hover">
     <tr>
         <th>ID</th>
-        <th>ID_Funcionário</th>
-        <th>ID_Cliente</th>
+        <th>Funcionário</th>
+        <th>Cliente</th>
         <th>Data</th>
         <th>Horário</th>
         <th>Procedimento</th>
