@@ -44,6 +44,7 @@ $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
     ?>
 
 <a href="agenda-formulario-inserir.php" class=" btn btn-success">Nova Consulta</a>
+
 <form method="post">
     <div class="row">
         <div class="col-1">Funcionário:</div>

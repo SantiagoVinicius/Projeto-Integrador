@@ -53,7 +53,7 @@
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
   <a class="navbar-brand" href="home.php">HOME</a>
-  <a class="navbar-brand" href="#" style="margin-left:89%;">LOGIN</a>
+  <a class="navbar-brand" href="entrada.php">LOGIN</a>
 </nav>
 
 <div class="container" style="margin-top:25px">

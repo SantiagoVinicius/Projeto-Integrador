@@ -1,7 +1,8 @@
 <?php
 session_start();
-//if(!isset($_SESSION['logado'])){
-    //header('Location: ../index.php?mensagem=login');
+if(!isset($_SESSION['logado'])){
+    header('Location: ../entrada.php?mensagem=login');
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
