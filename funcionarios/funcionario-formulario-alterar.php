@@ -12,23 +12,22 @@ while($funcionario = mysqli_fetch_assoc($listaDeFuncionarios)){
 }
 ?>
 
-<form name="formulario-inserir-funcionario" method="post" action="funcionario-alterar.php" enctype="multipart/form-data">
+<form name="formulario-inserir-funcionario" method="post" action="funcionario-alterar.php" enctype="multipart/form-data" class="text-center "style="margin-top:2em;">
     <input type="hidden" name="id_funcionario" value="<?php echo $id_funcionario;?>">
-    <div class="row">
-    <p class="col-6">
-        <label class="form-label">Nome: </label><br><input name="nome" class="form-control btn btn-primary"  value="<?php echo $nome;?>">
+    <p>
+        <label>Nome: </label><br><input name="nome" class="btn btn-secondary"  value="<?php echo $nome;?>">
     </p>
-    <p class="col-6">
-        <label class="form-label">Telefone: </label><br><input name="telefone" class="form-control btn btn-primary" value="<?php echo $telefone;?>">
+    <p>
+        <label>Telefone: </label><br><input name="telefone" class="btn btn-secondary" value="<?php echo $telefone;?>">
     </p>
-    <p class="col-6">
-        <label class="form-label">Trabalha Dias: </label><br><input name="trabalha_dias" class="form-control btn btn-primary" value="<?php echo $trabalha_dias;?>">
+    <p>
+        <label>Trabalha Dias: </label><br><input name="trabalha_dias" class="btn btn-secondary" value="<?php echo $trabalha_dias;?>">
     </p>
-    <p class="col-6">
-        <label class="form-label">Período: </label><br><input name="trabalha_horarios" class="form-control btn btn-primary" value="<?php echo $trabalha_horarios;?>">
+    <p>
+        <label>Período: </label><br><input name="trabalha_horarios" class="btn btn-secondary" value="<?php echo $trabalha_horarios;?>">
     </p>
         <p>
-            <button type="subtmit" class="btn btn-primary">Salvar</button>
+            <button type="subtmit" class="btn btn-secondary">Salvar</button>
         </p>
     </form>
 <?php include "../includes/rodape.php" ; ?>

@@ -22,7 +22,6 @@ $sqlBusca = "SELECT
                 }
 $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
 ?>
-<hr>
 
 <?php if(isset($_GET['mensagem'])){
         if($_GET['mensagem'] == 'cadastrado'){
@@ -43,13 +42,9 @@ $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
 }
     ?>
 
-<a href="agenda-formulario-inserir.php" class=" btn btn-success">Nova Consulta</a>
-
+<a href="agenda-formulario-inserir.php" class=" btn btn-outline-dark" style="width:10em;margin-top:0.5em;margin-left:1em;">Nova Consulta</a>
 <form method="post">
-    <div class="row">
-        <div class="col-1">Funcionário:</div>
-            <div class="col-4">
-            <select name="id_funcionario" class="form-select btn btn-success" >
+            <select name="id_funcionario" class="form-select btn btn-outline-dark"style="width:10em;margin-left:1em;" >
                 <option value="todos">TODOS</option>
                 <?php 
                 $sqlBuscaFuncionarios = "SELECT * FROM tb_funcionarios";
@@ -67,11 +62,9 @@ $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
                     }
                 ?>
             </select>
-            </div>
-        <div class="col-7">
-            <button class="btn btn-success">Filtrar</button>
+        <div class="btn" style="width:10em;">
+            <button class="btn btn-outline-dark">Filtrar</button>
         </div>
-    </div>
 </form>
 
 <table class="table table-hover">
@@ -82,7 +75,7 @@ $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
         <th>Data</th>
         <th>Horário</th>
         <th>Procedimento</th>
-        <th>Valor</th>
+        <th>Valor R$</th>
         <th>Ações</th>
     </tr>
 
@@ -96,7 +89,7 @@ while($agenda = mysqli_fetch_assoc($listaDeAgenda)){
     echo "<td>{$agenda['horario']}</td>";
     echo "<td>{$agenda['procedimento']}</td>";
     echo "<td>{$agenda['valor']}</td>";
-    echo "<td> <a type='button' class='btn btn-outline-success' href='agenda-formulario-alterar.php?id_agenda={$agenda['id']}'>Alterar <a type='button' class='btn btn-outline-success' href='agenda-excluir.php?id_agenda={$agenda['id']}'> Excluir</td>";
+    echo "<td> <a type='button' class='btn btn-outline-success' href='agenda-formulario-alterar.php?id_agenda={$agenda['id']}'>Alterar <a type='button' class='btn btn-outline-danger' href='agenda-excluir.php?id_agenda={$agenda['id']}'> Excluir</td>";
     echo "</tr>";
 }?>
 </table>

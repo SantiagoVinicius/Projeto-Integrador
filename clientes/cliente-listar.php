@@ -5,12 +5,11 @@ $sqlBusca = "SELECT * FROM tb_clientes";
 
 $listaDeClientes = mysqli_query($conexao, $sqlBusca);
 ?>
-<p>
-<hr>
+
 <?php if(isset($_GET['mensagem'])){
         if($_GET['mensagem'] == 'cadastrado'){
         ?> 
-        <div class="alert alert-danger">
+        <div class="alert alert-success">
             Cadastrado com sucesso!
         </div>
         <?php
@@ -18,7 +17,7 @@ $listaDeClientes = mysqli_query($conexao, $sqlBusca);
 
         if($_GET['mensagem'] == 'excluido'){
             ?>
-        <div class="alert alert-danger">
+        <div class="alert alert-success">
         Excluído com sucesso!
         </div>
         <?php
@@ -26,7 +25,7 @@ $listaDeClientes = mysqli_query($conexao, $sqlBusca);
 }
     ?>
 <p>
-    <a href="cliente-formulario-inserir.php" class="btn btn-danger" ><i class="bi-plus-circle"></i>Novo Cliente</a>
+    <a href="cliente-formulario-inserir.php" class="btn btn-outline-dark"style="width:10em;margin-top:0.5em;margin-left:1em;" ><i class="bi-plus-circle"></i>Novo Cliente</a>
 </p>
 
 <?php
@@ -37,7 +36,7 @@ $listaDeClientes = mysqli_query($conexao , $sqlBusca);
 ?>
 
 <table class="table table-hover">
-    <tr style="color:white">
+    <tr>
         <th>ID</th>
         <th>Nome</th>
         <th>Telefone</th>
@@ -55,7 +54,7 @@ $listaDeClientes = mysqli_query($conexao , $sqlBusca);
         echo "<td>{$cliente['adulto']}</td>"; 
         echo "<td>{$cliente['sexo']}</td>";
         echo "<td>{$cliente['descricao']}</td>";
-        echo "<td><a type='button' class='btn btn-outline-primary' href='cliente-formulario-alterar.php?id_cliente={$cliente['id']}'>Alterar</a> <a type='button' class='btn btn-outline-primary' href='cliente-excluir.php?id_cliente={$cliente['id']}'> Excluir</td>";
+        echo "<td><a type='button' class='btn btn-outline-success' href='cliente-formulario-alterar.php?id_cliente={$cliente['id']}'>Alterar</a> <a type='button' class='btn btn-outline-danger' href='cliente-excluir.php?id_cliente={$cliente['id']}'> Excluir</td>";
         echo "</tr>";
     }
     ?>

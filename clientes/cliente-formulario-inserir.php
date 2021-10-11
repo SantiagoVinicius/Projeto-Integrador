@@ -1,25 +1,25 @@
 <?php include "../includes/cabecalho.php" ; ?>
 
-<form name="formulario-inserir-clientes" method="post" action="cliente-inserir.php" enctype="multipart/form-data">
+<form name="formulario-inserir-clientes" method="post" action="cliente-inserir.php" enctype="multipart/form-data" class="text-center" style="margin-top:2em;">
     <p>
-        <label>Nome: </label><br><input class="btn btn-danger" name="nome">
+        <label>Nome: </label><br><input class="btn btn-secondary" name="nome">
     </p>
     <p>
-        <label>Telefone: </label><br><input class="btn btn-danger" name="telefone">
+        <label>Telefone: </label><br><input class="btn btn-secondary" name="telefone">
     </p>
     <p>
-    <input class="form-check-input btn-danger" type="checkbox" name="adulto" id="flexCheckIndeterminate"> Adulto
+    <input class="form-check-input btn-secondary" type="checkbox" name="adulto" id="flexCheckIndeterminate"> Adulto
   
     </p>
     <p>
-        <input class="form-check-input btn-danger" type="radio" name="sexo" value="Feminino"> Feminino
-        <input class="form-check-input btn-danger" type="radio" name="sexo" value="Masculino"> Masculino
+        <input class="form-check-input btn-secondary" type="radio" name="sexo" value="Feminino"> Feminino
+        <input class="form-check-input btn-secondary" type="radio" name="sexo" value="Masculino"> Masculino
     </p>
     <p>
-    <textarea class="btn btn-danger" name="descricao">Digite Informações!</textarea>
+    <textarea class="btn btn-secondary" name="descricao">Digite Informações!</textarea>
     </p>
         <p>
-            <button type="subtmit" class="btn btn-danger">Salvar</button>
+            <button type="subtmit" class="btn btn-secondary">Salvar</button>
         </p>
     </form>
 <?php include "../includes/rodape.php" ; ?>

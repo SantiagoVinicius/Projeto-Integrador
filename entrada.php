@@ -10,7 +10,7 @@
 </head>
 <body class="container" style="text-align:center;max-width:80vh;margin-top:10%;background:#ffcbdb;">
 
-    <form name="formulario-login" action="login.php" method="post" style="border:1px solid #ffcbdb;box-shadow: 0 0 1em white;">
+    <form name="formulario-login" action="login.php" method="post" style="border:1px solid #ffcbdb;box-shadow: 0 0 1em grey;">
         <div style="background-image:url('logi.jpg'); background-repeat:no-repeat;background-size:30em;">
         <label style="color:white;margin-top:20px;"class="text-dark">Área Restrita</label>
     <hr class="card border-dark mb-3 bg-dark" >

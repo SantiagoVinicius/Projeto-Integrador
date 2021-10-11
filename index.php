@@ -28,15 +28,15 @@
     <div class="carousel-item">
       <img src="images/manicure.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-         <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <h5>Santiago Hair</h5>
+          <p>Salão de Beleza</p>
         </div>
     </div>
     <div class="carousel-item">
       <img src="images/cabelereira.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          <h5>Santiago Hair</h5>
+          <p>Salão de Beleza</p>
         </div>
     </div>
   </div>
@@ -109,7 +109,7 @@
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
       <br>
       <h2>Local e Contato</h2>
-      <h5>Entre em Contata | Agende Já seu Horário</h5>
+      <h5>Entre em Contato | Agende Já seu Horário</h5>
       <p>
       <iframe class="google" id="contato" src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3679.3313777149456!2d-47.3315032!3d-22.7530803!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-22.7529962!2d-47.3290678!4m5!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana%20-%20R.%20Dr.%20Angelino%20Sanches%2C%20800%20-%20Vila%20Sao%20Pedro%2C%20Americana%20-%20SP%2C%2013466-490!3m2!1d-22.753131!2d-47.329091899999995!5e0!3m2!1spt-BR!2sbr!4v1607723191436!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border: 2px solid #ffcbdb;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </p>
