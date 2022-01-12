@@ -42,9 +42,9 @@ $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
 }
     ?>
 
-<a href="agenda-formulario-inserir.php" class=" btn btn-outline-dark" style="width:10em;margin-top:0.5em;margin-left:1em;">Nova Consulta</a>
+<a href="agenda-formulario-inserir.php" class=" btn btn-outline-light" style="width:11em;margin-top:0.5em;margin-left:1em;">Nova Consulta</a>
 <form method="post">
-            <select name="id_funcionario" class="form-select btn btn-outline-dark"style="width:10em;margin-left:1em;" >
+            <select name="id_funcionario" class="form-select btn btn-outline-light"style="width:11em;margin-left:1em;" >
                 <option value="todos">TODOS</option>
                 <?php 
                 $sqlBuscaFuncionarios = "SELECT * FROM tb_funcionarios";
@@ -62,8 +62,8 @@ $listaDeAgenda = mysqli_query($conexao , $sqlBusca);
                     }
                 ?>
             </select>
-        <div class="btn" style="width:10em;">
-            <button class="btn btn-outline-dark">Filtrar</button>
+        <div class="btn" style="width:11em;">
+            <button class="btn btn-outline-light">Filtrar</button>
         </div>
 </form>
 
@@ -89,7 +89,7 @@ while($agenda = mysqli_fetch_assoc($listaDeAgenda)){
     echo "<td>{$agenda['horario']}</td>";
     echo "<td>{$agenda['procedimento']}</td>";
     echo "<td>{$agenda['valor']}</td>";
-    echo "<td> <a type='button' class='btn btn-outline-success' href='agenda-formulario-alterar.php?id_agenda={$agenda['id']}'>Alterar <a type='button' class='btn btn-outline-danger' href='agenda-excluir.php?id_agenda={$agenda['id']}'> Excluir</td>";
+    echo "<td> <a type='button' class='btn btn-outline-light' href='agenda-formulario-alterar.php?id_agenda={$agenda['id']}'>Alterar <a type='button' class='btn btn-outline-light' href='agenda-excluir.php?id_agenda={$agenda['id']}'> Excluir</td>";
     echo "</tr>";
 }?>
 </table>

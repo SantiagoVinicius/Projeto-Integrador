@@ -1,11 +1,10 @@
 
-<footer  class="footer navbar-fixed-bottom bg-dark text-center" style="margin-top:20em">
-  <!-- Copyright -->
-  <div class="text-center text-light p-3">
-    &copy DIREITOS AUTORAIS RESEVADOS
-  </div>
-  <!-- Copyright -->
+<footer>
+<div class="text-center bg-light" style="margin-bottom:0;padding:1rem;margin-top:100%; ">
+  <p style="color:dark;">&copy Diretos Autorais Reservados.</p>
+</div>
 </footer>
+</main>
     <script src="../bootstrap5/js/bootstrap.bundle.js"></script>
     <script src="../js/jquery.min.js"></script>
 </body>

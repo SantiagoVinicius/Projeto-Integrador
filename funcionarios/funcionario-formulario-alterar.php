@@ -15,19 +15,19 @@ while($funcionario = mysqli_fetch_assoc($listaDeFuncionarios)){
 <form name="formulario-inserir-funcionario" method="post" action="funcionario-alterar.php" enctype="multipart/form-data" class="text-center "style="margin-top:2em;">
     <input type="hidden" name="id_funcionario" value="<?php echo $id_funcionario;?>">
     <p>
-        <label>Nome: </label><br><input name="nome" class="btn btn-secondary"  value="<?php echo $nome;?>">
+        <label>Nome: </label><br><input name="nome" class="btn btn-outline-light"  value="<?php echo $nome;?>">
     </p>
     <p>
-        <label>Telefone: </label><br><input name="telefone" class="btn btn-secondary" value="<?php echo $telefone;?>">
+        <label>Telefone: </label><br><input name="telefone" class="btn btn btn-outline-light" value="<?php echo $telefone;?>">
     </p>
     <p>
-        <label>Trabalha Dias: </label><br><input name="trabalha_dias" class="btn btn-secondary" value="<?php echo $trabalha_dias;?>">
+        <label>Trabalha Dias: </label><br><input name="trabalha_dias" class="btn btn btn-outline-light" value="<?php echo $trabalha_dias;?>">
     </p>
     <p>
-        <label>Período: </label><br><input name="trabalha_horarios" class="btn btn-secondary" value="<?php echo $trabalha_horarios;?>">
+        <label>Período: </label><br><input name="trabalha_horarios" class="btn btn btn-outline-light" value="<?php echo $trabalha_horarios;?>">
     </p>
         <p>
-            <button type="subtmit" class="btn btn-secondary">Salvar</button>
+            <button type="subtmit" class="btn btn-outline-light">Salvar</button>
         </p>
     </form>
 <?php include "../includes/rodape.php" ; ?>

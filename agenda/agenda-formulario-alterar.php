@@ -24,7 +24,7 @@ while($agenda = mysqli_fetch_assoc($listaDeAgenda)){
 <input name="id_agenda" type="hidden" value="<?php echo $id_agenda;?>">
     <p>
         <label>Funcionário:</label><br>
-        <select name="id_funcionario" class=" btn btn-secondary" value="<?php echo $id_funcionario;?>">
+        <select name="id_funcionario" class=" btn btn-outline-light" value="<?php echo $id_funcionario;?>">
             <?php
             $sqlBuscaFuncionarios = "SELECT * FROM tb_funcionarios";
             $listaDeFuncionarios = mysqli_query($conexao , $sqlBuscaFuncionarios);
@@ -39,7 +39,7 @@ while($agenda = mysqli_fetch_assoc($listaDeAgenda)){
     </p>
     <p>
         <label>Cliente:</label><br>
-        <select name="id_cliente" class=" btn btn-secondary" value="<?php echo $id_cliente;?>">
+        <select name="id_cliente" class=" btn btn-outline-light" value="<?php echo $id_cliente;?>">
             <?php
             $sqlBuscaClientes = "SELECT * FROM tb_clientes";
             $listaDeClientes = mysqli_query($conexao , $sqlBuscaClientes);
@@ -54,22 +54,22 @@ while($agenda = mysqli_fetch_assoc($listaDeAgenda)){
     </p>
     <p>
         <label>Data:</label><br>
-        <input name="data" type="date" class="btn btn-secondary" value="<?php echo $data;?>">
+        <input name="data" type="date" class="btn btn-outline-light" value="<?php echo $data;?>">
     </p>
     <p>
         <label>Horário:</label><br>
-        <input name="horario" type="time" class=" btn btn-secondary" value="<?php echo $horario; ?>">
+        <input name="horario" type="time" class=" btn btn-outline-light" value="<?php echo $horario; ?>">
     </p>
     <p>
         <label>Procedimento:</label><br>
-        <input name="procedimento" type="text" class="btn btn-secondary" value="<?php echo $procedimento;?>">
+        <input name="procedimento" type="text" class="btn btn-outline-light" value="<?php echo $procedimento;?>">
     </p>
     <p>
         <label>Valor R$:</label><br>
-        <input name="valor" type="number" class="btn btn-secondary" value="<?php echo $valor;?>">
+        <input name="valor" type="number" class="btn btn-outline-light" value="<?php echo $valor;?>">
     </p>
     <p>
-        <button type="submit" class=" btn btn-secondary">Salvar</button>
+        <button type="submit" class=" btn btn-outline-light">Salvar</button>
     </p>
 
     
