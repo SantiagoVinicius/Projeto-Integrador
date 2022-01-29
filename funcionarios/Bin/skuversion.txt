@@ -1,0 +1,5 @@
+GameVersion = 1.67.2.024017 
+Code:0.RL-2.0.209 
+Asset:1.Content.rl.41 
+Thumbnails:1.Thumbnail.dl.933 
+TCC:1.TCC.dl.1209 

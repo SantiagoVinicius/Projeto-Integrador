@@ -61,7 +61,7 @@
       <div class="col-sm-4">
         <h2>Sobre o Salão</h2>
         <div>
-          <img src="images/Salão.jpg" style="border: 2px solid #ffcbdb"> 
+          <img src="images/Salão.jpg" style="border: 1px solid #dd528d"> 
         </div>
       <p>Nosso espaço é pensado totalmente no bem-estar dos clientes, com horários marcados e exclusivos nossos profissionais dedicaram toda atenção a você, visando sempre seu bem-estar em sua permanência.Com ambiente climatizado, coffee break, música ambiente e estacionamento com total segurança é oferecido aos nossos clientes para sua melhor experiência, pois sua autoestima e bem-estar é nossa satisfação.</p>
       <h3>Redes Sociais</h3>
@@ -83,7 +83,7 @@
       <h2>Conheça Nossos Serviços</h2>
       <h5>Galeria</h5>
 
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style=" border: 1px solid #ff8c79">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="images/cabelocapa.jpg" alt="Primeiro Slide">
@@ -111,7 +111,7 @@
       <h2>Local e Contato</h2>
       <h5>Entre em Contato | Agende Já seu Horário</h5>
       <p>
-      <iframe class="google" id="contato" src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3679.3313777149456!2d-47.3315032!3d-22.7530803!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-22.7529962!2d-47.3290678!4m5!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana%20-%20R.%20Dr.%20Angelino%20Sanches%2C%20800%20-%20Vila%20Sao%20Pedro%2C%20Americana%20-%20SP%2C%2013466-490!3m2!1d-22.753131!2d-47.329091899999995!5e0!3m2!1spt-BR!2sbr!4v1607723191436!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border: 2px solid #ffcbdb;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <iframe class="google" id="contato" src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3679.3313777149456!2d-47.3315032!3d-22.7530803!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d-22.7529962!2d-47.3290678!4m5!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana%20-%20R.%20Dr.%20Angelino%20Sanches%2C%20800%20-%20Vila%20Sao%20Pedro%2C%20Americana%20-%20SP%2C%2013466-490!3m2!1d-22.753131!2d-47.329091899999995!5e0!3m2!1spt-BR!2sbr!4v1607723191436!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border: 1px solid #fbae52;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </p>
       <p>Contato: (19) 199090-5454
       Local: R.Abc Cba, 123<br> Bairro Sta abc | Nova Odessa - SP</p>

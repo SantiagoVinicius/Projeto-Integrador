@@ -1,0 +1,121 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	font-family: Helvetica, Arial,sans-serif;
+	font-size:0.75em;
+	background: #69A5D2 url(../images/bodybackground.png) repeat-x;
+}
+ul{
+	list-style:none;
+}
+.clear{
+	clear:both;
+}
+#branding{
+	background:url(../images/simsLogo.png) no-repeat;
+	background-position:0px 10px;
+	height:60px;
+	width:890px;
+	margin: 0 auto;
+	color:#EEEEEE;
+	font-size:2.3em;
+	padding-left:50px;
+	padding-top:35px;
+}
+#outerWrapper{
+	width: 940px;
+	margin: 0 auto;
+	text-align: left;
+}
+.panelBorderUpper{
+	width: 940px;
+	height:15px;
+	background:url(../images/panelTop.png) no-repeat;
+	font-size:1px; /* IE6 fix*/
+}
+.panelBorderMid{
+	width: 940px;
+	background:url(../images/panelMid.png) repeat-y;
+}
+.panelBorderBottom{
+	width: 940px;
+	background:url(../images/panelBottom.png) no-repeat;
+	height:15px;
+	font-size:1px; /* IE6 fix*/
+}
+.panel{
+	width:900px;
+	padding:10px 20px;
+}
+#navigation{
+	float:left;
+	width:180px;
+	margin-bottom:200px;
+}
+#navigation li{
+	background:url(../images/navBackground.png) repeat-x;
+	background-position:0% 100%;
+}
+#navigation li a:link, a:active, a:visited {
+	color:#1E5D92;
+	background:url(../images/blueBulletOpaque.png) no-repeat;
+	width:165px;
+	padding:0px 0px 10px 15px;
+	text-decoration:none;
+	display:block;
+}
+#navigation li a:hover{
+	color:#60AC3E;
+	background:url(../images/blueBulletOpaque.png) no-repeat;
+	width:165px;
+	padding:0px 0px 10px 15px;
+	text-decoration:none;
+	display:block;
+}
+#navigation li a.selected:link, a.selected:active, a.selected:visited{
+	color:#60AC3E;
+	background:url(../images/greenBulletOpaque.png) no-repeat;
+	width:165px;
+	padding:0px 0px 10px 15px;
+	text-decoration:none;
+	display:block;
+}
+#navigation li a.selected:hover{
+	color:#60AC3E;
+	background:url(../images/greenBulletOpaque.png) no-repeat;
+	width:165px;
+	padding:0px 0px 10px 15px;
+	text-decoration:none;
+	display:block;
+}
+#content{
+	float:right;
+	width:690px;
+	border-left:1px solid #a1d5b8;
+	padding: 0px 10px 50px 10px;
+}
+#content h2{
+	color:#60AC3E;
+	font-size:1.8em;
+}
+#content h3{
+	color:#1E5D92;
+	font-size:1.5em;
+	padding-top:20px;
+}
+#content p{
+	size:0.75em;
+	color:#154D83;
+	padding-top:20px;
+}
+#content ul{
+	padding-top:10px;
+	padding-left:30px;
+	list-style-type:square;
+}
+#content li{
+	size:0.75em;
+	color:#154D83;
+}

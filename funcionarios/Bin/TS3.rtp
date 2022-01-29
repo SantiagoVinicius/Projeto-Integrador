@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rtp version="1.0">
+    <gameHash>e2c2faca79622a11fa67e994074b420a</gameHash>
+    <gameIDs>1002441,sims3_dd,70384_Unrevised,70384_CE</gameIDs>
+    <gameName locale="en_US">The Sims 3</gameName>
+    <gameName locale="zh_CN">模拟人生3</gameName>
+    <gameName locale="zh_TW">模擬市民3</gameName>
+    <gameName locale="cs_CZ">The Sims™ 3</gameName>
+    <gameName locale="da_DK">The Sims™ 3</gameName>
+    <gameName locale="nl_NL">De Sims 3</gameName>
+    <gameName locale="fi_FI">The Sims™ 3</gameName>
+    <gameName locale="fr_FR">Les Sims™ 3</gameName>
+    <gameName locale="de_DE">Die Sims™ 3</gameName>
+    <gameName locale="el_GR">The Sims™ 3</gameName>
+    <gameName locale="hu_HU">The Sims™ 3</gameName>
+    <gameName locale="it_IT">The Sims™ 3</gameName>
+    <gameName locale="ja_JP">ザ･シムズ３</gameName>
+    <gameName locale="ko_KR">심즈 3</gameName>
+    <gameName locale="no_NO">The Sims™ 3</gameName>
+    <gameName locale="pl_PL">The Sims™ 3</gameName>
+    <gameName locale="pt_PT">Os Sims™ 3</gameName>
+    <gameName locale="pt_BR">The Sims™ 3</gameName>
+    <gameName locale="ru_RU">The Sims™ 3</gameName>
+    <gameName locale="es_ES">Los Sims™ 3</gameName>
+    <gameName locale="es_MX">The Sims™ 3</gameName>
+    <gameName locale="sv_SE">The Sims 3</gameName>
+    <gameName locale="th_TH">เดอะซิมส์ 3</gameName>
+</rtp>

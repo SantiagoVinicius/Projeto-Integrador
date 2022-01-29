@@ -14,7 +14,7 @@ if(!isset($_SESSION['logado'])){
     <link href="../css/estilo.css" rel="stylesheet">
     <link href="../bootstrap5/css/bootstrap.css" rel="stylesheet">
 </head>
-<body style="background-image:url(../images/fundocolor.jpg);background-repeat:no-repeat;background-size: 100vw; background-size: cover; background-position-x: right;background-attachment: fixed;  backdrop-filter: blur(8px);">
+<body style="background-image: linear-gradient( to bottom right, #dd528d,#ff8c79,#fbae52 );background-repeat:no-repeat;background-size: 100vw; background-size: cover; background-position-x: right;background-attachment: fixed;">
 <header class="navbar navbar-expand-sm" style="padding-top:1em;">
                 <a href="../funcionarios/funcionario-listar.php" class="btn btn-outline-light" style=" padding: 1px 15px 3px 2px;
 	            border-radius: 50px;margin-right:1em;margin-left:1em;">

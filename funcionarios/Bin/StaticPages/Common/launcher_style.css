@@ -1,0 +1,333 @@
+.welcomeRegistrationSims3Logo {
+	BACKGROUND-POSITION: 20px 20px; Z-INDEX: 9003; BACKGROUND-IMAGE: url(/images/plumbob.jpg); MARGIN: 0px auto; WIDTH: 420px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; HEIGHT: 160px
+}
+#launcherFirstRun {
+	LEFT: 4px; BACKGROUND-IMAGE: url(/images/launcher/pods/podFirstRun.gif); WIDTH: 255px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 6px; HEIGHT: 389px
+}
+#joinFun {
+	MARGIN-TOP: 20px; FONT-WEIGHT: bold; FONT-SIZE: 24px; FLOAT: right; WIDTH: 130px; COLOR: #057bba; LINE-HEIGHT: 25px; MARGIN-RIGHT: 20px
+}
+#firstRunBulletList {
+	FLOAT: right; LIST-STYLE-IMAGE: url(/images/blue_bullet.gif); WIDTH: 160px; LINE-HEIGHT: 13px; MARGIN-RIGHT: 10px
+}
+#firstRunLogin {
+	MARGIN-TOP: 9px; FLOAT: right; WIDTH: 130px; LINE-HEIGHT: 13px; MARGIN-RIGHT: 10px
+}
+#launcherFixed1 {
+	LEFT: 10px; BACKGROUND-IMAGE: url(/images/launcher/pods/launcherPod1.gif); WIDTH: 243px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 6px; HEIGHT: 389px
+}
+#launcherFixed2 {
+	LEFT: 262px; WIDTH: 311px; PADDING-TOP: 0px; POSITION: absolute; TOP: 6px; HEIGHT: 269px
+}
+#launcherFixed3 {
+	PADDING-LEFT: 3px; LEFT: 258px; BACKGROUND-IMAGE: url(/images/launcher/pods/launcherPod3.gif); WIDTH: 322px; PADDING-TOP: 10px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 240px; HEIGHT: 285px
+}
+#launcherFixed4 {
+	LEFT: 12px; WIDTH: 234px; POSITION: absolute; TOP: 406px; HEIGHT: 110px
+}
+#newsPod {
+	LEFT: 22px; WIDTH: 210px; POSITION: absolute; TOP: 150px; HEIGHT: 244px
+}
+#newsTabs {
+	PADDING-RIGHT: 63px; PADDING-LEFT: 10px; CURSOR: pointer; PADDING-TOP: 3px; HEIGHT: 30px
+}
+#newsTab1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left
+}
+#newsTab2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: right
+}
+#tabBody1 {
+	FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 190px; HEIGHT: 187px
+}
+#tabBody2 {
+	FLOAT: left; MARGIN-LEFT: 5px; WIDTH: 190px; HEIGHT: 187px
+}
+#signUp {
+	LEFT: 58px; CURSOR: pointer; POSITION: absolute; TOP: 77px
+}
+.selectedTab1 {
+	BACKGROUND-IMAGE: url(/images/launcher/newsPodTab1.png)
+}
+.selectedTab2 {
+	BACKGROUND-IMAGE: url(/images/launcher/newsPodTab2.png)
+}
+#newsPodMiddle {
+	BACKGROUND-IMAGE: url(/images/launcher/newsPodMiddle.png); BACKGROUND-REPEAT: no-repeat; HEIGHT: 187px
+}
+A.logout:link {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+A.logout:visited {
+	COLOR: #333333; TEXT-DECORATION: underline
+}
+#alreadyMember {
+	WIDTH: 100%; TEXT-ALIGN: center
+}
+#userImg {
+	BORDER-RIGHT: #bcbcbc 2px solid; BORDER-TOP: #bcbcbc 2px solid; BORDER-LEFT: #bcbcbc 2px solid; BORDER-BOTTOM: #bcbcbc 2px solid
+}
+.launcherInput {
+	FONT-SIZE: 10px; HEIGHT: 10px
+}
+.launcherTextarea {
+	FONT-SIZE: 10px; HEIGHT: 10px
+}
+.launcherSelect {
+	FONT-SIZE: 10px
+}
+.welcomeMsgRightContainer {
+	PADDING-RIGHT: 0%; LEFT: 0px; FLOAT: right; WIDTH: 80%; COLOR: #7b7b7b; PADDING-TOP: 0%
+}
+P.text {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 0px; BORDER-TOP: medium none; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: medium none; WIDTH: auto; COLOR: #333333; TEXT-INDENT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: medium none; FONT-STYLE: normal
+}
+.newsitem {
+	FONT-WEIGHT: normal; PADDING-BOTTOM: 5px; LINE-HEIGHT: 15px; PADDING-TOP: 5px
+}
+.exchangeDotedLine {
+	FONT-SIZE: 1px; FLOAT: left; BACKGROUND-IMAGE: url(/images/exchangeLineSep.jpg); MARGIN-LEFT: 20px; WIDTH: 270px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 1px
+}
+#exchangeThumbnailImage {
+	WIDTH: 64px; HEIGHT: 64px
+}
+#exchangeThumbnail {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-TOP: 4px; padding-botttom: 0px
+}
+#exchangeThumbnail A IMG {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 2px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 2px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #fff 2px solid; BACKGROUND-COLOR: #fff
+}
+#exchangeThumbnail A:hover IMG {
+	BORDER-RIGHT: #77b957 2px solid; BORDER-TOP: #77b957 2px solid; BORDER-LEFT: #77b957 2px solid; BORDER-BOTTOM: #77b957 2px solid
+}
+#exchangeMissingThumbnail {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-TOP: 4px; padding-botttom: 0px
+}
+#exchangeMissingThumbnail A IMG {
+	BORDER-RIGHT: #fff 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 2px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 2px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 2px solid
+}
+#exchangeMissingThumbnail A:hover IMG {
+	BORDER-RIGHT: #fff 2px solid; BORDER-TOP: #fff 2px solid; BORDER-LEFT: #fff 2px solid; CURSOR: default; BORDER-BOTTOM: #fff 2px solid
+}
+#exchangeTransparentLayer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 5; FILTER: alpha(opacity=90); LEFT: 15px; PADDING-BOTTOM: 0px; WIDTH: 90%; PADDING-TOP: 0px; POSITION: absolute; TOP: 13px; HEIGHT: 260px; BACKGROUND-COLOR: #fff; moz-opacity: .90; opacity: .90
+}
+#assetDetailLayer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 10; LEFT: 15px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: absolute; TOP: 13px
+}
+P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #58585a; PADDING-TOP: 0px
+}
+P A {
+	FONT-WEIGHT: 700; COLOR: #6fb0d0; TEXT-DECORATION: underline
+}
+P A:hover {
+	COLOR: #07c156
+}
+.offHeaderTxt {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 22px; COLOR: #048bd2; PADDING-TOP: 150px; FONT-FAMILY: "Trebuchet MS"
+}
+.offHeaderTxtC {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 23px; COLOR: #057bba; PADDING-TOP: 140px; FONT-FAMILY: "Trebuchet MS"
+}
+.bgC {
+	BACKGROUND: url(communitybg.jpg); WIDTH: 584px; HEIGHT: 530px
+}
+.alignC {
+	MARGIN-TOP: -530px; MARGIN-LEFT: 23px
+}
+.mainContentC {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 16px; COLOR: #3e3d3d; PADDING-TOP: 15px; FONT-FAMILY: "Trebuchet MS"
+}
+.mainContentC UL {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 19px; COLOR: #333333
+}
+.mainContentC UL LI {
+	PADDING-TOP: 8px
+}
+ HTML .mainContentC UL LI {
+	PADDING-TOP: 6px
+}
+.offBtmTxtC {
+	position: absolute;
+	top: 352px;
+	margin-left: 46px;
+	PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #414141; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS"
+}
+.offBtmTxtC p, .offBtmTxtMM p, .offBtmTxtE p, .offBtmTxtN p, .offBtmTxtSP p {
+	font-weight: normal;
+}
+.offBtmTxtC, .offBtmTxtMM, .offBtmTxtE, .offBtmTxtN, .offBtmTxtSP {
+	width: 295px;
+}
+.offHeaderTxtMM {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 23px; COLOR: #057bba; PADDING-TOP: 130px; FONT-FAMILY: "Trebuchet MS"
+}
+.bgMM {
+	BACKGROUND: url(moviesmorebg.jpg); WIDTH: 584px; HEIGHT: 530px
+}
+.alignMM {
+	MARGIN-TOP: -520px; MARGIN-LEFT: 200px
+}
+.mainContentMM {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 16px; COLOR: #3e3d3d; PADDING-TOP: 15px; FONT-FAMILY: "Trebuchet MS"
+}
+.mainContentMM UL {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 18px; COLOR: #333333
+}
+.mainContentMM UL LI {
+	PADDING-TOP: 6px
+}
+.offBtmTxtMM {
+	position: absolute;
+	top: 352px;
+	margin-left: 44px;
+	PADDING-LEFT: 0px; FONT-WEIGHT: 700; FONT-SIZE: 15px; COLOR: #414141; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS"
+}
+.offHeaderTxtN {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 23px; COLOR: #057bba; PADDING-TOP: 140px; FONT-FAMILY: "Trebuchet MS"
+}
+.bgN {
+	BACKGROUND: url(newsbg.jpg); WIDTH: 584px; HEIGHT: 530px
+}
+.alignN {
+	MARGIN-TOP: -525px; MARGIN-LEFT: 200px
+}
+.mainContentN {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 16px; COLOR: #3e3d3d; PADDING-TOP: 15px; FONT-FAMILY: "Trebuchet MS"
+}
+.mainContentN UL {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 18px
+}
+.mainContentN UL LI {
+	PADDING-TOP: 6px
+}
+.offBtmTxtN {
+	position: absolute;
+	top: 352px;
+	margin-left: 46px;
+	PADDING-LEFT: 0px; FONT-WEIGHT: 700; FONT-SIZE: 15px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS"
+}
+.offHeaderTxtSP {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 23px; COLOR: #057bba; PADDING-TOP: 138px; FONT-FAMILY: "Trebuchet MS"
+}
+.bgSP {
+	BACKGROUND: url(simpagesbg.jpg); WIDTH: 584px; HEIGHT: 530px
+}
+.alignSP {
+	MARGIN-TOP: -525px; MARGIN-LEFT: 25px
+}
+.mainContentSP {
+	PADDING-LEFT: 23px; FONT-WEIGHT: 700; FONT-SIZE: 16px; COLOR: #3e3d3d; PADDING-TOP: 15px; FONT-FAMILY: "Trebuchet MS"
+}
+.mainContentSP UL {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 20px
+}
+.mainContentSP UL LI {
+	PADDING-TOP: 6px
+}
+.offBtmTxtSP {
+	position: absolute;
+	top: 352px;
+	margin-left: 46px;
+	PADDING-LEFT: 0px; FONT-WEIGHT: 700; FONT-SIZE: 15px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS"
+}
+.offHeaderTxtE {
+	PADDING-LEFT: 53px; FONT-WEIGHT: 700; FONT-SIZE: 23px; COLOR: #057bba; PADDING-TOP: 165px; FONT-FAMILY: "Trebuchet MS"
+}
+.bgE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(exchangebg.jpg); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 584px; PADDING-TOP: 0px; HEIGHT: 530px
+}
+ HTML {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.alignE {
+	MARGIN-TOP: -550px
+}
+.mainContentE {
+	PADDING-LEFT: 53px; FONT-WEIGHT: 700; FONT-SIZE: 16px; COLOR: #3e3d3d; PADDING-TOP: 15px; FONT-FAMILY: "Trebuchet MS"
+}
+.mainContentE UL {
+	MARGIN-TOP: 0px; FONT-WEIGHT: normal; FONT-SIZE: 12px; MARGIN-LEFT: 15px; COLOR: #333333
+}
+.mainContentE UL LI {
+	PADDING-TOP: 8px
+}
+ HTML .mainContentE UL LI {
+	PADDING-TOP: 4px
+}
+.offBtmTxtE {
+	position: absolute;
+	top: 352px;
+	margin-left: 38px;
+	FONT-WEIGHT: 700; FONT-SIZE: 15px; COLOR: #333333; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS"
+}
+#menu A:hover {
+	TEXT-DECORATION: none
+}
+.head {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 1px; MARGIN: 0px 10px 3px; COLOR: #4fa544; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS"; TEXT-ALIGN: left; TEXT-DECORATION: underline
+}
+.line {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px 10px 3px; PADDING-TOP: 0px
+}
+.lineBottom {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN: 0px 8px 7px; PADDING-TOP: 0px
+}
+#listContainer {
+	MARGIN-LEFT: 6px; WIDTH: 314px; HEIGHT: auto
+}
+#vListOne {
+	FLOAT: left; WIDTH: auto
+}
+#vListTwo {
+	FLOAT: left; WIDTH: auto
+}
+#vListThree {
+	FLOAT: left; WIDTH: auto
+}
+#vListFour {
+	FLOAT: left; WIDTH: auto
+}
+#vListOne A IMG {
+	BORDER-RIGHT: #fff 3px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 3px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 3px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 3px solid
+}
+#vListTwo A IMG {
+	BORDER-RIGHT: #fff 3px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 3px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 3px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 3px solid
+}
+#vListThree A IMG {
+	BORDER-RIGHT: #fff 3px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 3px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 3px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 3px solid
+}
+#vListFour A IMG {
+	BORDER-RIGHT: #fff 3px solid; PADDING-RIGHT: 2px; BORDER-TOP: #fff 3px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #fff 3px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #fff 3px solid
+}
+#vListOne A:hover IMG {
+	BORDER-RIGHT: #77b957 3px solid; BORDER-TOP: #77b957 3px solid; BORDER-LEFT: #77b957 3px solid; BORDER-BOTTOM: #77b957 3px solid
+}
+#vListTwo A:hover IMG {
+	BORDER-RIGHT: #77b957 3px solid; BORDER-TOP: #77b957 3px solid; BORDER-LEFT: #77b957 3px solid; BORDER-BOTTOM: #77b957 3px solid
+}
+#vListThree A:hover IMG {
+	BORDER-RIGHT: #77b957 3px solid; BORDER-TOP: #77b957 3px solid; BORDER-LEFT: #77b957 3px solid; BORDER-BOTTOM: #77b957 3px solid
+}
+#vListFour A:hover IMG {
+	BORDER-RIGHT: #77b957 3px solid; BORDER-TOP: #77b957 3px solid; BORDER-LEFT: #77b957 3px solid; BORDER-BOTTOM: #77b957 3px solid
+}
+ HTML #vListOne A:hover {
+	BORDER-RIGHT: #77b957 0px solid; BORDER-TOP: #77b957 0px solid; BORDER-LEFT: #77b957 0px solid; BORDER-BOTTOM: #77b957 0px solid; BACKGROUND-COLOR: red
+}
+ HTML #vListTwo A:hover {
+	BORDER-RIGHT: #77b957 0px solid; BORDER-TOP: #77b957 0px solid; BORDER-LEFT: #77b957 0px solid; BORDER-BOTTOM: #77b957 0px solid; BACKGROUND-COLOR: red
+}
+ HTML #vListThree A:hover {
+	BORDER-RIGHT: #77b957 0px solid; BORDER-TOP: #77b957 0px solid; BORDER-LEFT: #77b957 0px solid; BORDER-BOTTOM: #77b957 0px solid; BACKGROUND-COLOR: red
+}
+ HTML #vListThree A:hover {
+	BORDER-RIGHT: #77b957 0px solid; BORDER-TOP: #77b957 0px solid; BORDER-LEFT: #77b957 0px solid; BORDER-BOTTOM: #77b957 0px solid; BACKGROUND-COLOR: red
+}
+DT {
+	MARGIN-TOP: -2px; PADDING-LEFT: 2px; PADDING-TOP: 3px
+}
+.imagecssNews {
+	MARGIN-TOP: 0px; BACKGROUND-IMAGE: url(/images/dots.gif); MARGIN-LEFT: 15px; OVERFLOW: hidden; WIDTH: 80%; BACKGROUND-REPEAT: no-repeat; HEIGHT: 5px
+}
